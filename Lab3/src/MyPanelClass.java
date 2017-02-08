@@ -32,7 +32,11 @@ public class MyPanelClass extends JPanel {
                         //Draw second border
                         Graphics g2 = g;
                         g2.setColor(Color.RED);
-                        g2.drawRect(x1 + 2, y1 + 2, width - 3, height - 3);
+                        g2.drawRect(x1 + 3, y1 + 3, width - 6, height - 6);
+                        
+                        //Draw a line
+                        g.setColor(Color.WHITE);
+                        g.drawLine(x1, y1, x2, y2);
                       
             }
 }
