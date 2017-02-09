@@ -5,7 +5,7 @@ import javax.swing.JFrame;
 
 public class Lab3Exercises {
 	public static void main(String[] args) {
-		JFrame myFrame = new JFrame("Christian Perez Villanueva");
+		JFrame myFrame = new JFrame("Christian Perez");
 		Dimension centerWindow = Toolkit.getDefaultToolkit().getScreenSize();
 		myFrame.setSize(200, 200);
 		int width = (int) ((centerWindow.getWidth() - myFrame.getWidth()) / 2);
